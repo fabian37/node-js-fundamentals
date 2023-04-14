@@ -28,3 +28,5 @@ const router = (req, res) => {
 http.createServer(router).listen(3000);
 
 console.log('Escuchando http en el puerto 3000');
+
+//chrome://inspect/ para debuggear
